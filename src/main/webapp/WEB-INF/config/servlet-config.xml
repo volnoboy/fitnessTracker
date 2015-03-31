@@ -10,7 +10,7 @@
 
     <mvc:annotation-driven/>
     <mvc:resources mapping="/pdfs/**" location="pdfs"/>
-    <context:component-scan base-package="com.volnoboy.controller"/>
+    <context:component-scan base-package="com.volnoboy"/>
 
     <bean id="messageSource" class="org.springframework.context.support.ResourceBundleMessageSource" p:basename="messages" />
 
